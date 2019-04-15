@@ -1,0 +1,237 @@
+#div3
+{
+  background-color:white;
+  color: blueviolet;
+  font-size: 20px;
+}
+h1{
+  width: 200px;
+  height: 40px;
+background-color: beige;  color: blueviolet;
+  
+
+}
+#auto
+{
+  width: 500px;
+  height: 50px;
+  background-color: rgb(214, 205, 205);
+  border-bottom-left-radius:15px;
+  border-top-left-radius: 15px;
+  font-size: 30px;
+  text-align: center;
+
+}
+#btn3
+{
+  width: 100px;
+  height: 70px;
+  border-bottom-right-radius: 15px;
+  border-top-right-radius: 15px;
+  background-color: blue;
+  color: white;
+font-size: 20px;
+}
+#butt
+{
+  width: 700px;
+  border: 20px;
+  border-color:white;
+  background-image: src="lux.jpg";
+  border:4px solid white;
+  position: relative;
+
+}
+body{
+  background-color: blueviolet;
+  /*background-image: url(gg.jpg);*/
+}
+img:hover
+{
+box-shadow: 0 0 10px 1px white;
+}
+#btn5
+{
+  color: white;
+  background-color: blue;
+  width: 200px;
+  height: 60px;
+  font-size: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+#btn5:hover
+{
+box-shadow: 0 0 15px 5px white;
+}
+#btn6
+{
+  color: white;
+  background-color: blue;
+  width: 200px;
+  height: 60px;
+  font-size: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+#btn6:hover
+{
+  box-shadow: 0 0 15px 5px white;
+}
+#btn2
+{
+  color: white;
+  background-color: blue;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  font-size: 22px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  width: 200px;
+  height: 70px;
+  top: 470px;
+  right: 70px;
+  position: fixed;
+}
+#btn2:hover
+{
+box-shadow: 0 0 20px 5px white;
+}
+#menu2 li
+{
+  
+  list-style-type: none;
+  display: inline;
+  font-size: 36px;
+  font-weight: bold;
+  top: 250px;
+  left: 100px;
+  position: sticky;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+#menu2{
+  background-color: white;
+  height: 40px;
+}
+#menu2 a{
+text-decoration: none;
+}
+#menu2 a:hover{
+  color: white;
+  background-color: blueviolet;
+}
+h3{
+  font-size: 50px;
+  color: blueviolet;
+  background-color: white;
+  width: 700px;
+  height: 60px;
+  font-family: Georgia, 'Times New Roman', Times, serif
+}
+#menu
+{
+  color: blueviolet;
+  font-size: 20px;
+
+}
+#mark
+{
+  font-size: 25px;
+  color: white;
+  background-color: maroon;
+}
+#mark:hover{
+  font-weight: bold;
+}
+#aos
+{
+  font-size: 40px;
+  color: blueviolet;
+  background-color: white;
+  width: 400px;
+  height: 50px;
+}
+#mydiv{
+border: 5px solid white;  
+}
+#secdiv
+{
+  font: 33px;
+  background-color: blue;
+  color: white;
+  text-align: center;
+  
+}
+#imp
+{
+  
+  color: white;
+  background-color: blue;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  font-size: 22px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  width: 100px;
+  height: 50px;
+}
+#imp:hover
+{
+box-shadow: 0 0 20px 5px white;
+}
+#name
+{
+  text-align: left;
+  border: 5px solid black;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  height: 70px;
+  width: 450px;
+}
+h4
+{
+  font-size: 50px;
+  color: blueviolet;
+  background-color: white;
+  width: 900px;
+  height: 60px;
+  font-family: Georgia, 'Times New Roman', Times, serif
+}
+#in
+{
+  height: 100px;
+  width: 100px;
+}
+#popli
+{
+  color: white;
+  background-color: blue;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  font-size: 22px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  width: 100px;
+  height: 50px;
+}
+#popli:hover
+{
+box-shadow: 0 0 20px 5px white;
+}
+h1{
+  font-size: 50px;
+  color: blueviolet;
+  background-color: white;
+  width: 700px;
+  height: 60px;
+  font-family: Georgia, 'Times New Roman', Times, serif
+}

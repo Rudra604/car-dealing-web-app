@@ -1,0 +1,103 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css4.css">
+        <link rel="stylesheet" href="jqueryui/jquery-ui.css">
+        <link rel="stylesheet" href="jqueryui/jquery-ui.structure.css">
+        <link rel="stylesheet" href="jqueryui/jquery-ui.theme.css">
+        <title>
+car details
+        </title>
+    </head>
+    <body>
+        <center>
+            <hr>
+            <div id="menu2">
+              <ul>
+                <li><a href="heaven.html">| Home |</a></li>
+                <li><a href=""> Status |</a></li>
+                <li><a href=""> Buy |</a></li>
+                <li><a href="car.html"> Whats New |</a></li>
+                <li><a href=""> Custom |</a></li>
+                <li><a href=""> About Us |</a></li>
+              </ul>
+            </div>
+           
+            <hr>
+        </center>
+<div>
+    <center>
+        <h1>BMW 730Ld : </h1>
+    <img id="bmw" src="bmw1.jpg" onmouseover="increase()" onmouseout="decrease()" width="650px" height="400px" style="cursor:zoom-in">
+    <br>
+    <h2>Rs.1.2 - 2.45 Cr. </h2> 
+    <br>
+    <form action=""><button type="submit" id="btn6">More Image</button> 
+    </form>
+    <button type="submit" id="btn5">Specification</button>
+    <button type="submit" id="btn5">Buy Now</button>
+</div>
+<br><br><br><br><br><br>
+<div id="sps">
+
+        <b>Mileage:</b> (upto)16.77 kmpl<br><br>
+        <b>Engine:</b> (upto)6592 cc<br><br>
+        <b>BHP:</b>600.77<br><br>
+        <b>Transmission:</b>Automatic<br><br>
+        <b>Seats:</b>5<br><br>
+        <b>Boot Space:</b>515 Litre<br><br>
+</div>
+    </body>
+    <script src="code.js" type="text/javascript"></script>
+        <script src="jqueryui/jquery-ui.js" type="text/javascript"></script>
+        <script>
+var width=400;
+var height=200;
+var difference=2;
+var intervalId=0;
+function increase()
+{
+    clearInterval(intervalId);
+    intervalId=setInterval(expand,10);
+}
+function expand()
+{
+    if(width<1200)
+    {
+        width=width+difference;
+        document.getElementById("bmw").style.width=width;
+    }
+    else
+    {
+        clearInterval(intervalId);
+    }
+}
+function decrease()
+{
+    clearInterval(intervalId);
+    intervalId=setInterval(shrink,10);
+}
+function shrink()
+{
+    if(width>650)
+    {
+        width=width-difference;
+        document.getElementById("bmw").style.width=width;
+    }
+    else
+    {
+        clearInterval(intervalId);
+    }
+}
+        $("#btn5").click(function(){
+    $("#sps").dialog({
+                title:"Specifications",
+                draggable:false,
+                resizable:false,
+                height:300,
+                width:300,
+                modal:true,
+        
+});
+});
+        </script>
+    </html>
